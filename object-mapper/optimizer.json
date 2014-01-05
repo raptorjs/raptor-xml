@@ -1,0 +1,17 @@
+{
+    "dependencies": [
+        {
+            "package": "../sax"
+        },
+        {
+            "package": "raptor-strings"
+        },
+        {
+            "package": "raptor-arrays"
+        },
+        {
+            "package": "raptor-util"
+        },
+        "object-mapper.js"
+    ]
+}

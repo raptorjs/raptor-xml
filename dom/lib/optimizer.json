@@ -1,0 +1,10 @@
+{
+    "dependencies": [
+        "dom.js",
+        "parser.js",
+        {
+            "path": "DomParser_jquery.js",
+            "if-extension": "jquery"
+        }
+    ]
+}

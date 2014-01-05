@@ -1,0 +1,32 @@
+{
+    "dependencies": [
+        {
+            "package": "raptor-listeners"
+        },
+        {
+            "package": "../../dom"
+        },
+        "sax.js",
+        "BaseSaxParser.js",
+        {
+            "path": "SaxParser_node.js",
+            "if-extension": "node"
+        },
+        {
+            "path": "SaxParser_rhino.js",
+            "if-extension": "rhino"
+        },
+        {
+            "package": "../../dom",
+            "if-extension": "jquery"
+        },
+        {
+            "package": "../../dom-to-sax",
+            "if-extension": "jquery"
+        },
+        {
+            "path": "SaxParserDom.js",
+            "if-extension": "jquery"
+        }
+    ]
+}
