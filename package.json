@@ -12,7 +12,6 @@
   "author": "Patrick Steele-Idem <psteeleidem@ebay.com>",
   "maintainers": "Patrick Steele-Idem <psteeleidem@ebay.com>",
   "dependencies": {
-    "raptor-packaging": "0.1.0-SNAPSHOT",
     "raptor-listeners": "0.1.0-SNAPSHOT",
     "raptor-util": "0.1.0-SNAPSHOT",
     "raptor-ecma": "0.1.0-SNAPSHOT",
