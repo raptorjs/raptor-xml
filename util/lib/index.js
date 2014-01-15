@@ -7,7 +7,7 @@ var replacements = {
     '>': "&gt;",
     '&': "&amp;",
     '"': "&quot;",
-    "'": "&apos;",
+    "'": "&#39;",
     '\n': "&#10;" //Preserve new lines so that they don't get normalized as space
 };
 
