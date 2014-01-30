@@ -171,4 +171,4 @@ SaxParser.prototype = {
 
 raptorUtil.inherit(SaxParser, BaseSaxParser);
 
-require('./sax').SaxParser = SaxParser;
+module.exports = SaxParser;

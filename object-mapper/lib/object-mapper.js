@@ -15,8 +15,10 @@
  */
 
 require('raptor-ecma/es6');
+
 var sax = require('../../sax');
 var raptorUtil = require('raptor-util');
+var createError = raptorUtil.createError;
 var forEachEntry = raptorUtil.forEachEntry;
 var extend = raptorUtil.extend;
 var arrays = require("raptor-arrays");
@@ -186,7 +188,7 @@ Reader.prototype = {
     },
     
     error: function(message) {
-        throw raptor.createError(new Error(message + " (" + this.saxParser.getPos() + ")"));
+        throw createError(new Error(message + " (" + this.saxParser.getPos() + ")"));
     },
     
     getCurrentContext: function() {

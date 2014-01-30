@@ -15,8 +15,8 @@
  */
 var extend = require('raptor-util').extend;
 
-exports.SaxParser = null;
-exports.SaxParserDom = null;
+exports.SaxParser = require('./SaxParser');
+exports.SaxParserDom = require('./SaxParserDom');
 
 extend(exports, {
 
@@ -40,5 +40,3 @@ extend(exports, {
         return new exports.SaxParserDom(options);
     }
 });
-
-require('raptor-packaging').loadPackage(module);

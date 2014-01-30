@@ -9,11 +9,11 @@ SaxParserDom.prototype = {
             xmlDoc = xmlSrc;
         }
         else {
-            var parser = require('raptor/xml/dom').createParser();
+            var parser = require('raptor-xml/dom').createParser();
             xmlDoc = parser.parse(xmlSrc, filePath);    
         }
         
-        require('raptor/xml/dom-to-sax').domToSax(xmlDoc.documentElement, {
+        require('raptor-xml/dom-to-sax').domToSax(xmlDoc.documentElement, {
             
             startElement: this._startElement,
             
@@ -26,4 +26,4 @@ SaxParserDom.prototype = {
     }
 };
 
-require('./sax').SaxParserDom = SaxParserDom;
+module.exports = SaxParserDom;
