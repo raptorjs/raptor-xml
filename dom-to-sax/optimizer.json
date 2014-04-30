@@ -1,8 +1,0 @@
-{
-    "dependencies": [
-        {
-            "package": "raptor-listeners"
-        },
-        "dom-to-sax.js"
-    ]
-}
