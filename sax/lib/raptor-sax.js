@@ -16,7 +16,6 @@
 var extend = require('raptor-util').extend;
 
 exports.SaxParser = require('./SaxParser');
-exports.SaxParserDom = require('./SaxParserDom');
 
 extend(exports, {
 
@@ -32,11 +31,7 @@ extend(exports, {
             return this.createParserForDom(options);
         }
 
-        var Parser = exports.SaxParser || exports.SaxParserDom;
+        var Parser = exports.SaxParser;
         return new Parser(options);
-    },
-
-    createParserForDom: function(options) {
-        return new exports.SaxParserDom(options);
     }
 });
