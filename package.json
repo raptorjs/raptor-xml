@@ -13,7 +13,7 @@
     "dependencies": {
         "raptor-listeners": "^0.2.0-beta",
         "raptor-util": "^0.2.0-beta",
-        "raptor-ecma": "^0.2.0-beta",
+        "raptor-polyfill": "^0.2.0-beta",
         "raptor-strings": "^0.2.0-beta",
         "raptor-arrays": "^0.2.0-beta",
         "sax": "~0.4.2"

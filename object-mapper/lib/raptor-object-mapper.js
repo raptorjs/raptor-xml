@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-require('raptor-ecma/es6');
+require('raptor-polyfill/string/startsWith');
 
 var sax = require('../../sax');
 var raptorUtil = require('raptor-util');
