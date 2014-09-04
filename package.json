@@ -1,32 +1,32 @@
 {
-  "name": "raptor-xml",
-  "description": "Utility module for working with regular expressions",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/raptorjs3/raptor-xml.git"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test"
-  },
-  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "dependencies": {
-    "raptor-listeners": "^1.0.0-beta",
-    "raptor-util": "^1.0.0-beta",
-    "raptor-polyfill": "^1.0.0-beta",
-    "raptor-strings": "^1.0.0-beta",
-    "raptor-arrays": "^1.0.0-beta",
-    "sax": "^0.4.3"
-  },
-  "devDependencies": {
-    "mocha": "~1.15.1",
-    "chai": "~1.8.1"
-  },
-  "license": "Apache License v2.0",
-  "bin": {},
-  "main": "lib/raptor-xml.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "version": "1.0.0-beta"
+    "name": "raptor-xml",
+    "description": "Utility module for working with regular expressions",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/raptorjs3/raptor-xml.git"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test"
+    },
+    "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "dependencies": {
+        "raptor-listeners": "^1.0.0-beta",
+        "raptor-util": "^1.0.0-beta",
+        "raptor-polyfill": "^1.0.0-beta",
+        "raptor-strings": "^1.0.0-beta",
+        "raptor-arrays": "^1.0.0-beta",
+        "sax": "^0.4.3"
+    },
+    "devDependencies": {
+        "mocha": "~1.15.1",
+        "chai": "~1.8.1"
+    },
+    "license": "Apache License v2.0",
+    "bin": {},
+    "main": "lib/raptor-xml.js",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "version": "1.0.1-beta"
 }
