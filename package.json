@@ -11,7 +11,6 @@
   "author": "Patrick Steele-Idem <pnidem@gmail.com>",
   "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
   "dependencies": {
-    "raptor-listeners": "^1.0.1-beta",
     "raptor-util": "^1.0.0",
     "raptor-polyfill": "^1.0.0",
     "raptor-strings": "^1.0.0",
