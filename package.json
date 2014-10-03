@@ -3,7 +3,7 @@
     "description": "Utility module for working with regular expressions",
     "repository": {
         "type": "git",
-        "url": "https://github.com/raptorjs3/raptor-xml.git"
+        "url": "https://github.com/raptorjs/raptor-xml.git"
     },
     "scripts": {
         "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test"
