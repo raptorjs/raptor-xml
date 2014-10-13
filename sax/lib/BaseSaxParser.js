@@ -34,7 +34,7 @@ BaseSaxParser.prototype = {
                 callback = events[event];
                 this.on(event, callback, thisObj);
             }, this);
-            
+
             return;
         }
 
@@ -42,32 +42,32 @@ BaseSaxParser.prototype = {
     },
 
     _startElement: function(el) {
-        this.observable.publish("startElement", el);
+        this.observable.emit("startElement", el);
     },
 
     _endElement: function(el) {
-        this.observable.publish("endElement", el);
+        this.observable.emit("endElement", el);
     },
 
     _characters: function(text) {
         //Normalize EOL sequence...
         text = text.replace(/\r\n|\r/g, "\n");
-        this.observable.publish("characters", text);
+        this.observable.emit("characters", text);
     },
 
     _cdata: function(text) {
         //Normalize EOL sequence...
         text = text.replace(/\r\n|\r/g, "\n");
-        this.observable.publish("cdata", text);
+        this.observable.emit("cdata", text);
     },
 
     _comment: function(comment) {
-        this.observable.publish("comment", comment);
+        this.observable.emit("comment", comment);
     },
 
     _error: function() {
         var args = arrayFromArguments(arguments);
-        this.observable.publish("error", args);
+        this.observable.emit("error", args);
     },
 
     getPos: function() {
